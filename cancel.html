@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cancel.css">
+    <link rel="stylesheet" href="popyes.css">
+    <link rel="stylesheet" href="popno.css">
+</head>
+
+<body>
+
+
+    <div>
+        <form class="modal-content" action="">
+            <div class="container">
+                <h1>Cancel booking....!</h1>
+                <p>Are you sure to cancel your booking?</p>
+
+                <div class="clearfix">
+                    <button type="button" id="open-popup-btn" class="cancelbtn">Yes</button></a>
+                    <button type="button" id="noopen-popup-btn" class="deletebtn">No</button></a>
+
+                </div>
+                <b> <p>If you are click yes then your booking has been permanetly cancelled.</p></b>
+                <b> <p>If you are click no then your booking has been succesfully completed.</p></b>
+            </div>
+        </form>
+    </div>
+
+    <div class="popup center">
+        <div class="icon">
+            <i class="fa fa-check"></i>
+        </div>
+        <div class="title">
+            Cancelled
+        </div>
+        <div class="description">
+            Your Booking has been succesfully completed
+        </div>
+        <div class="dismiss-btn">
+            <center> <a class="button" href="justlog.html"> Back to home</a></center>
+        </div>
+    </div>
+
+
+    <div class="nopopup center">
+        <div class="icon">
+            <i class="fa fa-check"></i>
+        </div>
+        <div class="title">
+            Success
+        </div>
+        <div class="description">
+            Your booking has been successfully completed.
+        </div>
+        <div class="dismiss-btn">
+            <center> <a class="button" href="justlog.html">Back to home </a></center>
+        </div>
+    </div>
+
+
+    <style>
+        .button {
+            text-underline-offset: none;
+            display: block;
+            text-decoration: none;
+            width: 115px;
+            height: 25px;
+            background: #FAED00;
+            text-align: 5px;
+            border-radius: 5px;
+            color: rgb(17, 17, 17);
+            font-weight: bold;
+            line-height: 25px;
+        }
+    </style>
+    <script src="popyes.js">
+    </script>
+    <script src="popno.js">
+    </script>
+
+</body>
+
+</html>
